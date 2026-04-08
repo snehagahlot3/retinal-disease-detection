@@ -11,8 +11,11 @@ ML model to detect diabetic retinopathy from retinal fundus images using Efficie
 - Trained on APTOS 2019 dataset
 
 ## Run locally
+```
 pip install -r requirements.txt
+python download_models.py
 streamlit run app.py
+```
 
 ## Tech Stack
 Python, TensorFlow, Streamlit, OpenCV
